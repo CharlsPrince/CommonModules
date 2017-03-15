@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CommonModules_Example' do
+  pod 'CommonModules', :path => '../'
+
+  target 'CommonModules_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
